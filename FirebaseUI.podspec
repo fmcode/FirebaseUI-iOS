@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = "8.0"
   s.dependency "Firebase", "~>2.2"
-  s.ios.framework = "UIKit"
+  s.ios.frameworks = "UIKit", "SystemConfiguration"
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Firebase"' }
   s.requires_arc = true
   s.default_subspecs = 'Core', 'Auth'
