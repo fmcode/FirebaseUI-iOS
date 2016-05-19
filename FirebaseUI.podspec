@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = "8.0"
   s.dependency "Firebase", "~>2.2"
-  s.ios.frameworks = "UIKit", "SystemConfiguration", "libicucore"
+  s.ios.frameworks = "UIKit", "SystemConfiguration"
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Firebase"' }
   s.requires_arc = true
   s.default_subspecs = 'Core', 'Auth'
-	s.library = 'c++'
+	s.libraries = 'c++', 'libicucore'
 
   s.subspec 'Core' do |core|
     core.source_files = "FirebaseUI/{Core,Util}/**/*.{h,m}"
