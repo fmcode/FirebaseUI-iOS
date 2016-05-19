@@ -32,7 +32,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import <Firebase/Firebase.h>
+@import Firebase;
 
 #import "FirebaseAuthDelegate.h"
 #import "FirebaseAuthConstants.h"

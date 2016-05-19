@@ -32,7 +32,7 @@
 
 #import <Social/Social.h>
 
-#import <Firebase/Firebase.h>
+@import Firebase;
 #import <Accounts/Accounts.h>
 
 #import "FirebaseAuthProvider.h"

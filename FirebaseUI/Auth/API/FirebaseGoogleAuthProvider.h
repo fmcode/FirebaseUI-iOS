@@ -30,7 +30,7 @@
 
 // clang-format on
 
-#import <Firebase/Firebase.h>
+@import Firebase;
 
 #if LOCAL_BUILD
 #import <GoogleSignIn/GoogleSignIn.h>

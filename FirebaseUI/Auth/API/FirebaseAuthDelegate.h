@@ -30,7 +30,7 @@
 
 // clang-format on
 
-#import <Firebase/Firebase.h>
+@import Firebase;
 
 /**
  * A protocol that defines the contract of authentication state changes from a

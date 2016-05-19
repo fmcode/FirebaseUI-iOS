@@ -33,7 +33,7 @@
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 
-#import <Firebase/Firebase.h>
+@import Firebase;
 
 // Shared auth
 #import "FirebaseAuthDelegate.h"

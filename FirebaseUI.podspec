@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.xcconfig     = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Firebase"' }
   s.requires_arc = true
   s.default_subspecs = 'Core', 'Auth'
+	s.library = 'c++'
 
   s.subspec 'Core' do |core|
     core.source_files = "FirebaseUI/{Core,Util}/**/*.{h,m}"
